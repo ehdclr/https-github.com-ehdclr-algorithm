@@ -1,48 +1,44 @@
 const fs = require("fs");
 const input = fs.readFileSync("/dev/stdin").toString().split("\n");
 
-let n = Number(input[0]);
-let graph = [];
-for(let i = 0 ; i <=n ;i++) graph.push([0]);
-for(let i = 1; i <=n ;i++){
-    line = input[i].split(' ').map(Number);
-    for(let j = 0 ; j <n ;j++) graph[i].push(line[j]);
+const n = Number(input[0]);
+
+let arr = [];
+for (let i = 0; i <= n; i++) arr.push([0]);
+for (let i = 1; i <= n; i++) {
+  let line = input[i].split(" ").map(Number);
+  for (let j = 0; j < line.length; j++) arr[i].push(line[j]);
 }
 
 let visited = new Array(11).fill(false);
-let result = [];
-let minValue = Infinity
+let selected = [];
 
+let minValue = Infinity;
 
-function dfs(depth){
-    if (depth == n -1){
-        let totalCost = 0 ;
-        let cur = 1; //1번 노드에서 출발
-        for(let i = 0 ; i < n - 1 ; i++){
-            let nextNode = result[i];
-            let cost = graph[cur][nextNode];
-            if(cost == 0) return;
-            totalCost += cost;
-            cur = nextNode;
-        }
-
-        let cost = graph[cur][1];
-        if(cost ==0) return;
-        totalCost += cost;
-        minValue = Math.min(minValue, totalCost)
+function dfs(depth) {
+  if (depth == n - 1) {
+    let totalValue = 0;
+    let cur = 1; //현재 
+    for(let x of selected){
+        if(arr[cur][x] == 0) return;
+        totalValue += arr[cur][x] ;
+        cur = x;
     }
+    if(arr[cur][1] ==0) return;
+    totalValue += arr[cur][1];
+    minValue = Math.min(minValue,totalValue);
+    return;
+  }
 
-    for(let i = 2 ; i <= n ; i++){
-        if(visited[i]) continue;
-        result.push(i);
-        visited[i] = true;
-        dfs(depth+1)
-        result.pop();
-        visited[i] = false
-    }
-
-
+  for (let i = 2; i <= n; i++) {
+    if (visited[i]) continue;
+    selected.push(i); // 현재 행에서 방문한 열
+    visited[i] = true;
+    dfs(depth + 1);
+    selected.pop();
+    visited[i] = false;
+  }
 }
 
-dfs(0)
-console.log(minValue)
+dfs(0);
+console.log(minValue);
