@@ -21,56 +21,59 @@ class Queue {
     return item;
   }
 
-  peek() {
-    if (this.getLength() == 0) return null;
-    return this.items[this.headIndex];
-  }
-
   getLength() {
     return this.tailIndex - this.headIndex;
   }
-}
 
-const [s,t] = input[0].split(" ").map(Number);
-if(s == t){
-  console.log(0)
-  return;
-}
-//자기자신을 연산을 하는거여서
-
-let visited = new Set([s]);
-let found = false;
-bfs(s)
-
-function bfs(x){
-  let queue = new Queue();
-  queue.enqueue([x,""]);
-
-  while(queue.getLength() !=0){
-    let [cur, opers] = queue.dequeue();
-    if(cur > 1e9) continue;
-    
-    if(cur == t){
-      console.log(opers);
-      found = true;
-      break;
-    }
-    for (let oper of ["*","+","-","/"]){
-      let nextValue = cur;
-      if(oper == "*") nextValue *= cur;
-      if(oper == "+") nextValue += cur;
-      if(oper == "-") nextValue -= cur;
-      if(oper == "/" && cur != 0) nextValue /= cur;
-      if(!visited.has(nextValue)){
-        queue.enqueue([nextValue,opers + oper]);
-        visited.add(nextValue)
-      }
-
-    }
-
+  peek() {
+    return this.items[this.headIndex];
   }
 }
 
-if (!found){
-  console.log(-1);
+let [s, t] = input[0].split(" ").map(Number);
+
+//set로 만들면, 숫자 겹치는거 방지할 수 있음
+let visited = new Set([s]);
+let found = false;
+
+if(s==t){
+    console.log(0)
 }
+
+bfs(s);
+
+function bfs(x) {
+  let queue = new Queue();
+  queue.enqueue([x, ""]);
+
+  while (queue.getLength() > 0) {
+    let [cur, answer] = queue.dequeue();
+    if(cur >1e9) continue;
+    if(cur == t){
+        console.log(answer);
+        found = true;
+        return;
+    }
+    for(let oper of ["*","+","-","/"]){
+        let nxt = cur;
+        if(oper == "*"){
+            nxt *= cur;
+        }
+        else if(oper =="+"){
+            nxt += cur;
+        }
+        else if(oper == "-"){
+            nxt -= cur;
+        }
+        else if(oper == "/" && cur !== 0){
+            nxt /= cur;
+        }
+        if(visited.has(nxt)) continue;
+        visited.add(nxt);
+        queue.enqueue([nxt, answer + oper]);
+    }
+  }
+}
+
+
+if(!found) console.log(-1)
