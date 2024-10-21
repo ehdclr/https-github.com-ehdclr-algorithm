@@ -3,22 +3,27 @@ const input = fs.readFileSync("/dev/stdin").toString().split("\n");
 
 class Queue {
   constructor() {
-    this.items = {};
+    this.queue = {};
     this.headIndex = 0;
     this.tailIndex = 0;
   }
 
   enqueue(value) {
-    this.items[this.tailIndex] = value;
+    this.queue[this.tailIndex] = value;
     this.tailIndex++;
   }
 
   dequeue() {
     if (this.getLength() == 0) return null;
-    let item = this.items[this.headIndex];
-    delete this.items[this.headIndex];
+    let item = this.peek();
+    delete this.queue[this.headIndex];
     this.headIndex++;
     return item;
+  }
+
+  peek() {
+    if (this.getLength() == 0) return null;
+    return this.queue[this.headIndex];
   }
 
   getLength() {
@@ -26,43 +31,45 @@ class Queue {
   }
 }
 
-// 입력 처리
-const [n, m, k, x] = input[0].split(" ").map(Number);
+// 1 ~ n 도시 m개의 (단방향 도로)-> 모든 도로 거리 1
 
-// 그래프 생성
-const graph = Array.from({ length: n + 1 }, () => []);
+//도시 x -> 최단거리 k인 모든 도시들의 번호 출력
+//다익스트라 해도 됨
+// 한 도시에서 최단거리 도시
 
-// 도로 정보 입력 처리
+let [n, m, k, x] = input[0].split(" ").map(Number);
+let graph = Array.from({ length: n + 1 }, () => []);
+//방향 그래프 만들기
+let visited = new Array(n + 1).fill(false);
+let flags = false;
+let result = [];
+
 for (let i = 1; i <= m; i++) {
   let [a, b] = input[i].split(" ").map(Number);
-  graph[a].push(b); // 방향 그래프
+  graph[a].push(b); //방향 그래프
 }
 
-// BFS 탐색
-let visited = new Set([x]);
+//x로부터 거리가 k인 도시의 목록 리스트
 let queue = new Queue();
-queue.enqueue([x, 0]); // 시작점과 거리를 큐에 넣음
-let foundCities = [];
+queue.enqueue([x, 0]); //첫 노드에서 누적
+visited[x] = true;
 
 while (queue.getLength() > 0) {
-  let [cur, dist] = queue.dequeue();
-
+  let [curNode, dist] = queue.dequeue();
   if (dist == k) {
-    foundCities.push(cur); // 거리가 정확히 k인 도시를 저장
+    //현재 노드 누적이면
+    result.push(curNode);
+    flags = true;
   }
-
-  for (let y of graph[cur]) {
-    if (!visited.has(y)) {
-      visited.add(y); // 방문 체크
-      queue.enqueue([y, dist + 1]); // 거리를 1 증가시켜 큐에 넣음
+  for (let nx of graph[curNode]) {
+    //다음 노드
+    if (!visited[nx]) {
+      //방문하지 않았다면
+      queue.enqueue([nx, dist + 1]);
+      visited[nx] = true;
     }
   }
 }
 
-// 결과 출력
-if (foundCities.length > 0) {
-  foundCities.sort((a, b) => a - b); // 도시 번호를 오름차순으로 정렬
-  console.log(foundCities.join("\n"));
-} else {
-  console.log(-1); // 거리가 k인 도시가 없는 경우
-}
+if (!flags) console.log(-1);
+else console.log(result.sort((a, b) => a - b).join("\n"));
