@@ -3,15 +3,16 @@
  * @return {number}
  */
 var findDuplicate = function(nums) {
-    let set = new Set();
-    let result = 0;
+    let obj = {};
 
+    let result = 0;
     nums.map((el)=>{
-        if(set.has(el)){
+        if(!obj[el]) obj[el] =1;
+        else{
             result = el;
         }
-        else set.add(el)
     })
+
 
     return result;
 };
