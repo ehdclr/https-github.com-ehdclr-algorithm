@@ -10,19 +10,34 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Two Pointers
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Sorting
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Binary Search
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
+## Stack
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Greedy
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 <!---LeetCode Topics End-->
