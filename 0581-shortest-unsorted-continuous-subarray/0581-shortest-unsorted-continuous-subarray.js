@@ -27,13 +27,12 @@ var findUnsortedSubarray = function(nums) {
         }
     }
 
-    let leftIndex = 0; //맨오른쪽에서부터 인덱스를 넓혀나가기 왼쪽 인덱스
+    let leftIndex = 0; //왼쪽부터 깨지는 부분찾기
     while(leftIndex <nums.length && nums[leftIndex] <= leftNum){
-        //현재의 인덱스가 
         leftIndex++
     }
 
-        let rightIndex = nums.length -1;
+    let rightIndex = nums.length -1;
     while(rightIndex >= 0  && nums[rightIndex] >= rightNum){
         rightIndex--;
     }
