@@ -10,12 +10,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
+| [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Two Pointers
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Sorting
 |  |
@@ -28,6 +30,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
+| [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 ## Stack
 |  |
 | ------- |
@@ -40,4 +43,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
