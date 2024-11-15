@@ -7,6 +7,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
@@ -16,6 +17,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
@@ -23,6 +25,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
