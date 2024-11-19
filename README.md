@@ -84,4 +84,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->
