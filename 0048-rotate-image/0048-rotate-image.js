@@ -3,27 +3,25 @@
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
 var rotate = function(matrix) {
-    //열을 기준으로 나열 먼저
+
+    //이중 for문으로 풀 수 있음 . -> 시간복잡도를 O(n^2)으로 줄일때
     let n = matrix.length;
-    let arr = Array.from({length : n} , () => []);
 
-    //이게 열이라고 생각 두번째 인덱스가 세로 축임
-    for(let j = 0 ; j < n ;j++){
-        for(let i = n-1 ; i >= 0 ;i--){
-            //열을 역순으로 넣음
-            console.log(i,j)
-            arr[j].push(matrix[i][j]);
+    // matrix[x][y] 일때,
+    //new xIndex = oldYIndex
+    //new yIndex = n - oldXIndex
+
+    for(let i = 0 ; i < Math.floor(n/2) ; i++ ){ //가로축
+        for(let j = 0 ; j < Math.floor((n+1)/2); j++){ //세로축
+            //하나의 점을 먼저 구하기 
+            let temp = matrix[i][j];
+            matrix[i][j] = matrix[n - j - 1][i];
+            matrix[n - j - 1][i] = matrix[n - i - 1][n - j - 1];
+            matrix[n - i - 1][n - j - 1] = matrix[j][n - i - 1];
+            matrix[j][n - i - 1] = temp;
         }
     }
-    for(let i =0 ; i <n ;i++){
-        for(let j = 0 ; j< n ; j++){
-            matrix[i][j] = arr[i][j]
-        }
-    }
+    console.log(matrix)
 
-    return matrix;
+    return matrix
 };
-
-//TODO n * n matrix
-//90도 시계방향을 바꿨을 때, 결과 
-
