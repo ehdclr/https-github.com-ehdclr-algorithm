@@ -95,8 +95,10 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0812-rotate-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0812-rotate-string) |
 ## String Matching
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0812-rotate-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
