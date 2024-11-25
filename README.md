@@ -78,6 +78,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
+| [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 ## Matrix
 |  |
 | ------- |
@@ -99,6 +100,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
+| [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0812-rotate-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0812-rotate-string) |
 ## String Matching
@@ -106,4 +108,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0812-rotate-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0812-rotate-string) |
+## Simulation
+|  |
+| ------- |
+| [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 <!---LeetCode Topics End-->
