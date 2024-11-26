@@ -14,7 +14,8 @@ var isValid = function(s) {
             stack.push(char)
         } else {
             let top = stack.top(); // 스택의 맨 위 요소 확인
-            if (               (char === ')' && top === '(') ||
+            if (
+                (char === ')' && top === '(') ||
                 (char === ']' && top === '[') ||
                 (char === '}' && top === '{')
             ) {
