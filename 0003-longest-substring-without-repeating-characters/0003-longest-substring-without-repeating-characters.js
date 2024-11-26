@@ -18,3 +18,6 @@ var lengthOfLongestSubstring = function(s) {
 
     return maxLength;
 };
+
+//슬라이딩 윈도우는 O(n)
+//공간복잡도는 O(m) 알파벳은 26개이기때문에 O(26) -> O(1)이 된다.
