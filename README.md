@@ -59,6 +59,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0155-min-stack) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Greedy
@@ -126,4 +127,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
