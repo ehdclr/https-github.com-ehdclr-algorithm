@@ -61,6 +61,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0020-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0155-min-stack) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Greedy
 |  |
@@ -113,6 +114,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0812-rotate-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0812-rotate-string) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## String Matching
 |  |
