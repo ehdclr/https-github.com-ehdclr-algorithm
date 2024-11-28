@@ -60,6 +60,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0020-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
@@ -113,6 +114,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
+| [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0812-rotate-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0812-rotate-string) |
@@ -136,4 +138,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0155-min-stack) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
