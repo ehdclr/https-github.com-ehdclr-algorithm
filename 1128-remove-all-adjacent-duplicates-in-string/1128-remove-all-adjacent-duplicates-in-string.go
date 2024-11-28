@@ -17,10 +17,10 @@ func removeDuplicates(s string) string {
     }
 
     //stack 에 남은걸 이제 문자로 더하기
-    result := ""
-    for _, v := range stack {
-        result += string(v)
-    }
+    // result := ""
+    // for _, v := range stack {
+    //     result += string(v)
+    // }
 
-    return result
+    return string(stack)
 }
