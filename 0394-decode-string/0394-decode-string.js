@@ -43,7 +43,7 @@ const decodeString = s => {
             curStr = prevStr + curStr.repeat(num);
             continue;
         } else if(Number.isInteger(+char)){
-            curNum = curNum*10 + Number(char);
+            curNum = curNum*10 + Number(char); //이전걸 10곱해주고 새로운걸 더해야함
         } else {
             curStr += char;
         }
