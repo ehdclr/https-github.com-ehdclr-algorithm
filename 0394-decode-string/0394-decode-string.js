@@ -1,53 +1,36 @@
-//TODO 스택 하나로만 푸는방법 
-// const decodeString = s => {
-//   const stack = [];
-//   for (const char of s) {
-//     if (char !== "]") { stack.push(char); continue; }
-//     let cur = stack.pop();
-//     let str = '';
-//     while (cur !== '[') {
-//       str = cur + str;
-//       cur = stack.pop();
-//     }
-//     let num = '';
-//     cur = stack.pop();
-//     while (!Number.isNaN(Number(cur))) {
-//       num = cur + num;
-//       cur = stack.pop();
-//     }
-//     stack.push(cur);
-//     stack.push(str.repeat(Number(num)));
-//   }
-//   return stack.join('');
-// };
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var decodeString = function(s) {
+    
+    const stack = [];
+    const countStack = [];
 
-//TODO 공간복잡도를 늘리고 스택 두개로 푸는방법
-const decodeString = s => {
-    let stack = [];
-    let num_stack = [];
-
-    let curNum = 0;
     let curStr = '';
+    let curNum = 0;
 
     for(let char of s){
-        if (char == "[") {
+        if(Number.isInteger(+char)){
+            curNum = curNum * 10 + Number(char);
+        } else {
+        if(char == "["){
+            countStack.push(Number(curNum));
             stack.push(curStr);
-            num_stack.push(curNum);;
-            curNum =0;
-            curStr =''
+            curStr = ''
+            curNum = 0;
             continue;
-        } 
-        else if(char == "]"){
+        } else if ( char == "]"){
             let prevStr = stack.pop();
-            let num = num_stack.pop();
+            let num = countStack.pop();
             curStr = prevStr + curStr.repeat(num);
             continue;
-        } else if(Number.isInteger(+char)){
-            curNum = curNum*10 + Number(char); //이전걸 10곱해주고 새로운걸 더해야함
         } else {
             curStr += char;
         }
-    }
+        }
 
+
+    }
     return curStr;
-}
+};
