@@ -21,6 +21,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
 ## Two Pointers
 |  |
 | ------- |
@@ -63,6 +64,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -75,6 +77,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
 ## Bit Manipulation
 |  |
 | ------- |
