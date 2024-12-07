@@ -3,7 +3,6 @@
  * @return {number[]}
  */
 
- //브루트 포스 방법
 var dailyTemperatures = function(temperatures) {
       let n = temperatures.length;
     let arr = new Array(n).fill(0); 
