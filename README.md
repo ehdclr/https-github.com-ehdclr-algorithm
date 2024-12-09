@@ -88,6 +88,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
+| [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
 ## Math
 |  |
 | ------- |
@@ -120,6 +121,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
+| [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
@@ -148,4 +150,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
+## Counting
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
