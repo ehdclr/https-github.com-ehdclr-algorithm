@@ -91,6 +91,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0290-word-pattern) |
 | [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
 ## Math
 |  |
@@ -126,6 +127,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0205-isomorphic-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0205-isomorphic-strings) |
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0290-word-pattern) |
 | [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
