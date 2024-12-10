@@ -3,6 +3,7 @@
  * @param {number} k
  * @return {number[]}
  */
+ //O(nlogn) 정렬을 하게 함
 var topKFrequent = function(nums, k) {
 
     //arr 로 풀 수도 있음 
