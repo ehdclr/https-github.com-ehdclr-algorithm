@@ -21,6 +21,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
 ## Two Pointers
@@ -96,6 +97,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
 ## Math
@@ -103,6 +105,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 ## Matrix
 |  |
@@ -160,6 +163,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0155-min-stack) |
+| [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 ## Recursion
 |  |
 | ------- |
@@ -192,4 +196,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
