@@ -22,6 +22,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
+| [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
 ## Two Pointers
@@ -99,6 +100,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
+| [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
 ## Math
 |  |
@@ -200,4 +202,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
