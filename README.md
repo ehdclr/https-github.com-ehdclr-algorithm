@@ -26,6 +26,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
+| [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Two Pointers
 |  |
@@ -56,6 +57,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
+| [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 ## Binary Search
 |  |
 | ------- |
@@ -105,6 +107,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0525-contiguous-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
+| [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Math
 |  |
@@ -113,6 +116,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
+| [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 ## Matrix
 |  |
 | ------- |
@@ -212,4 +216,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0525-contiguous-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1016-subarray-sums-divisible-by-k) |
+## Geometry
+|  |
+| ------- |
+| [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 <!---LeetCode Topics End-->
