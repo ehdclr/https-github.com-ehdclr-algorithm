@@ -26,6 +26,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0792-binary-search) |
 | [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1016-subarray-sums-divisible-by-k) |
 ## Two Pointers
@@ -66,6 +67,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
+| [0792-binary-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0792-binary-search) |
 ## Stack
 |  |
 | ------- |
