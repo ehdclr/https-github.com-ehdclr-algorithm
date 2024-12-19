@@ -17,6 +17,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
+| [0209-minimum-size-subarray-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
 | [0283-move-zeroes](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0283-move-zeroes) |
@@ -67,6 +68,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
+| [0209-minimum-size-subarray-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
@@ -175,6 +177,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0209-minimum-size-subarray-sum) |
 ## Design
 |  |
 | ------- |
@@ -219,6 +222,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0209-minimum-size-subarray-sum) |
 | [0525-contiguous-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0724-find-pivot-index) |
