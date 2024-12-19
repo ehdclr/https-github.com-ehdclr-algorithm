@@ -19,6 +19,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
+| [0283-move-zeroes](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
@@ -40,6 +41,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
+| [0283-move-zeroes](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
