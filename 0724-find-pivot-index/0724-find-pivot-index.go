@@ -2,23 +2,19 @@ func pivotIndex(nums []int) int {
     totalSum := 0
     leftSum := 0
 
-    // 전체 합 계산
-    for _, num := range nums {
-        totalSum += num
+    // Calculate the total sum of the array
+    for _, v := range nums {
+        totalSum += v
     }
 
-    // 피벗 위치 계산
-    for i, num := range nums {
-        // 오른쪽 합 = 전체 합 - 왼쪽 합 - 현재 값
-        rightSum := totalSum - leftSum - num
-
-        if leftSum == rightSum {
+    // Iterate through the array to find the pivot index
+    for i, v := range nums {
+        // Check if leftSum equals rightSum
+        if leftSum == totalSum-leftSum-v {
             return i
         }
-
-        // 왼쪽 합에 현재 값을 더함
-        leftSum += num
+        leftSum += v
     }
 
-    return -1 // 피벗 인덱스가 없으면 -1 반환
+    return -1
 }
