@@ -29,6 +29,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0724-find-pivot-index](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0792-binary-search) |
 | [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -235,6 +236,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0070-climbing-stairs) |
+| [0747-min-cost-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
