@@ -2,34 +2,29 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var minPathSum = function(grid) {
+var minPathSum = function(grid) {   
+    let row = grid.length;
+    let col = grid[0].length
+    
+    // dp의 이차원 배열이 필요하다면, 2차원 배열로 만들기
+    let dp = Array.from({length : row }, ()=> new Array(col).fill(0));
+    dp[0][0] = grid[0][0]; //
 
-    let m = grid.length;      // 행의 개수
-    let n = grid[0].length;   // 열의 개수
-
-    // DP 배열 초기화
-    let dp = Array.from({length: m}, () => new Array(n).fill(0));
-
-    // 초기 위치
-    dp[0][0] = grid[0][0];
-
-    // 첫 번째 행 초기화
-    for (let j = 1; j < n; j++) {
-        dp[0][j] = dp[0][j - 1] + grid[0][j];
+    //첫 행은 오른쪽으로만 무조건 가야하기떄문에  처리
+    for(let i = 1 ; i < col ;i++){
+        dp[0][i] = dp[0][i-1] + grid[0][i];
     }
 
-    // 첫 번째 열 초기화
-    for (let i = 1; i < m; i++) {
-        dp[i][0] = dp[i - 1][0] + grid[i][0];
+    //첫 열 정리
+    for(let j = 1 ; j < row ; j++){
+        dp[j][0] = dp[j-1][0] + grid[j][0];
     }
 
-    // DP 테이블 채우기
-    for (let i = 1; i < m; i++) {
-        for (let j = 1; j < n; j++) {
-            dp[i][j] = grid[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
+    for(let i = 1 ; i < row ; i++){
+        for(let j = 1 ; j <col; j++){
+            dp[i][j] = Math.min(dp[i-1][j] + grid[i][j], dp[i][j-1] + grid[i][j])
         }
     }
 
-    // 마지막 위치의 최소 비용 반환
-    return dp[m - 1][n - 1];
+    return dp[row-1][col-1];
 };
