@@ -12,6 +12,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0018-4sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0018-4sum) |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
@@ -138,6 +139,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
 ## Database
@@ -238,6 +240,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0070-climbing-stairs) |
 | [0322-coin-change](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0322-coin-change) |
