@@ -10,7 +10,7 @@ var maxSubArray = function(nums) {
         // 현재 요소를 포함하는 새로운 부분합 또는 시작점 재설정
         currentSum = Math.max(nums[i], currentSum + nums[i]);
         // 최대값 갱신
-        maxSum = Math.max(maxSum, currentSum);
+        maxSum = Math.max(maxSum, currentSum); //이전의 마지막 element를 포함한 subArray 최대 값
     }
 
     return maxSum;
