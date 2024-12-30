@@ -2,27 +2,27 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxProduct = function(nums) {
+// var maxProduct = function(nums) {
 
-    let prevMin = nums[0] // 이전 값들 min
-    let prevMax = nums[0] // 이전 값 max
-    let max = nums[0];
+//     let prevMin = nums[0] // 이전 값들 min
+//     let prevMax = nums[0] // 이전 값 max
+//     let max = nums[0];
 
-    for(let i = 1 ; i < nums.length ; i++){
+//     for(let i = 1 ; i < nums.length ; i++){
         
-        //dp<min>(n) = min(dp<min>(n-1)  * nums[n] , dp<max>(n-1) * nums[n] , nums[n]) // 현재값을 이어진게 최소가 될수도, // 최대값에 현재값을 곱하면 최ㅏ소가 될수도 있고, 안이어진다고하면 현재값만 최소가 될 수도 있음 Max도 마찬가지임
-        let minCurrent = Math.min(nums[i], prevMin * nums[i]);
-        minCurrent = Math.min(minCurrent, prevMax * nums[i]);
-        let maxCurrent = Math.max(nums[i], prevMin * nums[i]);
-        maxCurrent = Math.max(maxCurrent, prevMax * nums[i]);
+//         //dp<min>(n) = min(dp<min>(n-1)  * nums[n] , dp<max>(n-1) * nums[n] , nums[n]) // 현재값을 이어진게 최소가 될수도, // 최대값에 현재값을 곱하면 최ㅏ소가 될수도 있고, 안이어진다고하면 현재값만 최소가 될 수도 있음 Max도 마찬가지임
+//         let minCurrent = Math.min(nums[i], prevMin * nums[i]);
+//         minCurrent = Math.min(minCurrent, prevMax * nums[i]);
+//         let maxCurrent = Math.max(nums[i], prevMin * nums[i]);
+//         maxCurrent = Math.max(maxCurrent, prevMax * nums[i]);
 
-        prevMin = minCurrent;
-        prevMax = maxCurrent;
+//         prevMin = minCurrent;
+//         prevMax = maxCurrent;
 
-        max = Math.max(max, maxCurrent);
-    };
-    return max;
-};
+//         max = Math.max(max, maxCurrent);
+//     };
+//     return max;
+// };
 
 //integer nums subArray 32bit Integer //가장 큰 곱을가진 부분 배열
 
@@ -38,3 +38,27 @@ var maxProduct = function(nums) {
 // bottom up 방식으로 푼다면, 
 
 //f(n) = max(cur, cur  )
+
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var maxProduct = function(nums) {
+   let maxProduct=nums[0];
+   let currentMax=nums[0];
+   let currentMin=nums[0];
+   
+   for (let i=1;i<nums.length;i++){
+        const num=nums[i];
+
+        const tempMax = Math.max(num,currentMax*num,currentMin*num);
+
+        currentMin=Math.min(num,currentMax*num,currentMin*num);
+        currentMax=tempMax;
+        
+        maxProduct=Math.max(maxProduct,currentMax);
+   }
+
+   return maxProduct;           
+};
