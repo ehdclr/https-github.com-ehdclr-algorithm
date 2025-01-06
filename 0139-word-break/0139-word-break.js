@@ -18,3 +18,24 @@ var wordBreak = function(s, wordDict) {
 };
 
 //set으로 푸는 방법
+
+// var wordBreak = function(s, wordDict){
+//     let n = s.length;
+//     let dp = new Array(n+1).fill(false);
+//     dp[0] = true // 빈문자열은 항상 true
+
+//     for(let i = 0 ; i <  n; i++){
+//         if(!dp[i]) continue; // 바로 이전이니까 
+
+//         for(let j = i + 1 ; j < n ; j++ ) { //j는 다음 dp에 담을 그릇 즉 , 다음 사이즈를 바텀 업으로 확인
+//             if(dp[j] && wordDict.includes(s.slice(i,j))) { 
+//                 dp[j] = true
+//                 break
+//             }
+//         }
+
+//     }
+
+//     return dp[n]
+
+// }
