@@ -18,6 +18,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
+| [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0209-minimum-size-subarray-sum) |
@@ -111,6 +112,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
+| [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0290-word-pattern) |
@@ -160,6 +162,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0205-isomorphic-strings) |
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
@@ -223,6 +226,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
 ## Randomized
 |  |
@@ -247,6 +251,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0152-maximum-product-subarray) |
 | [0322-coin-change](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0322-coin-change) |
 | [0747-min-cost-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0747-min-cost-climbing-stairs) |
@@ -254,6 +259,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 ## Breadth-First Search
 |  |
 | ------- |
