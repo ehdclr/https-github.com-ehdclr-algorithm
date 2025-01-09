@@ -17,6 +17,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0152-maximum-product-subarray) |
@@ -105,6 +106,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 ## Hash Table
 |  |
@@ -270,4 +272,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
