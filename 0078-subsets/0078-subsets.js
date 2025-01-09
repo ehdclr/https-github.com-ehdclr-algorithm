@@ -10,6 +10,7 @@ var subsets = function(nums) {
         result.push([...current]);
 
         // 남은 숫자들로 부분집합 생성
+        // 방문하고 다음 숫자로 넘어가야하기때문에 index를 +1 함
         for (let i = index; i < nums.length; i++) {
             current.push(nums[i]);  // 숫자 선택
             dfs(i + 1, current);   // 다음 숫자 처리
