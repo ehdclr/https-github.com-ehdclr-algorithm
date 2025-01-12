@@ -10,6 +10,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0018-4sum) |
+| [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
@@ -272,5 +273,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
