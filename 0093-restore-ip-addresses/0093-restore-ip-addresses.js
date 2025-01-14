@@ -18,7 +18,7 @@ var restoreIpAddresses = function(s) {
         // index부터 최대 index + 3까지 확인
         const idxP3 = index + 3;
         for (let endIdx = index; endIdx < Math.min(s.length, idxP3); endIdx++) {
-            const numStr = s.slice(index, endIdx + 1);
+            const numStr = s.substring(index, endIdx + 1);
             if (valid(numStr)) {
                 ips.push(numStr); // 유효하면 추가
                 dt(index + numStr.length, ips); // 재귀 호출
@@ -38,6 +38,3 @@ var restoreIpAddresses = function(s) {
     return result;
 };
 
-// 예제 실행
-const result = restoreIpAddresses("25525511135");
-console.log(result); // ["255.255.11.135", "255.255.111.35"]
