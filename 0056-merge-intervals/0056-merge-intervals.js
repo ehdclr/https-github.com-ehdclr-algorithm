@@ -21,7 +21,7 @@ let result = [];
 intervals.sort((a,b) => a[0] - b[0]) ; //start를 기준으로 정렬
 let startNum = intervals[0][0]
 let lastNum = intervals[0][1]; //end의 숫자를 기록 하는 변수
-let union = []
+
 for(let curIndex = 1 ; curIndex < intervals.length ; curIndex++){
     let [cx,cy] = intervals[curIndex]; //마지막 숫자를 기억
     if(cx <= lastNum){
