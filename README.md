@@ -20,6 +20,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0088-merge-sorted-array) |
 | [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0152-maximum-product-subarray) |
@@ -144,6 +145,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0240-search-a-2d-matrix-ii) |
 ## Divide and Conquer
 |  |
@@ -167,6 +169,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0020-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0093-restore-ip-addresses) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
@@ -278,5 +281,10 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0039-combination-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0093-restore-ip-addresses) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
