@@ -10,6 +10,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0015-3sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0018-4sum) |
+| [0037-sudoku-solver](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
@@ -117,6 +118,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0001-two-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0205-isomorphic-strings) |
@@ -142,6 +144,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0074-search-a-2d-matrix) |
@@ -278,6 +281,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
