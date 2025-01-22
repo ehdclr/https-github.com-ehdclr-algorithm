@@ -15,6 +15,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
@@ -284,6 +285,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0037-sudoku-solver](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0093-restore-ip-addresses) |
