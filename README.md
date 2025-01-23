@@ -171,6 +171,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0005-longest-palindromic-substring](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
@@ -262,6 +263,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0070-climbing-stairs) |
@@ -282,6 +284,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0046-permutations) |
