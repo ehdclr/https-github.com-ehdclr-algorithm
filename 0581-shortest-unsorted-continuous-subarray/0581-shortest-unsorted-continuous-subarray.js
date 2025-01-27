@@ -3,30 +3,33 @@
  * @return {number}
  */
 var findUnsortedSubarray = function(nums) {
-    let n = nums.length;
-    let startIdx = -1;
-    let endIdx = -1;
-    let maxSeen = -Infinity;
-    let minSeen = Infinity;
+    
 
-    // 오른쪽에서 왼쪽으로 최소값 추적
-    for (let i = 0; i < n; i++) {
-        if (nums[i] < maxSeen) {
-            endIdx = i;
-        } else {
-            maxSeen = nums[i];
+    let leftNum = Infinity;
+    let rightNum = -Infinity; 
+
+    for(let i = 1; i < nums.length ;i++){
+        if(nums[i-1] > nums[i]){ //꺾이는 부분을 찾아서 해당 값에서 더 작은 값을 찾아내야함 거기서부터 시작 -> 계속 커지는 배열이라는 가정하에
+            leftNum = Math.min(leftNum,nums[i])
         }
     }
 
-    // 왼쪽에서 오른쪽으로 최대값 추적
-    for (let i = n - 1; i >= 0; i--) {
-        if (nums[i] > minSeen) {
-            startIdx = i;
-        } else {
-            minSeen = nums[i];
+    for(let i = nums.length - 2; i >= 0 ;i--){
+        if(nums[i] > nums[i+1]){
+            rightNum = Math.max(rightNum, nums[i])
         }
     }
 
-    // 정렬되지 않은 구간의 길이를 계산
-    return startIdx === -1 ? 0 : endIdx - startIdx + 1;
+    let leftIdx = 0;
+    let rightIdx = nums.length - 1;
+    //꺾인 부분보다 큰부분이 있으면, 거기서 꺾인부분의 정점
+    while(leftIdx < nums.length && nums[leftIdx] <= leftNum){
+        leftIdx++
+    }
+
+    while(rightIdx >= 0  && nums[rightIdx] >= rightNum){
+        rightIdx--
+    }
+
+    return leftIdx < rightIdx ? rightIdx - leftIdx + 1 : 0
 };
