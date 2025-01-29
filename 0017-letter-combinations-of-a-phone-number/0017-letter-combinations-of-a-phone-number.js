@@ -3,11 +3,8 @@
  * @return {string[]}
  */
 var letterCombinations = function(digits) {
-    
-    if(!digits) return []
-    let result =[];
 
-    let object = {
+    let obj = {
         2: ['a','b','c'],
         3: ['d','e','f'],
         4: ['g','h','i'],
@@ -18,20 +15,28 @@ var letterCombinations = function(digits) {
         9: ['w','x','y','z']
     }
 
+    let result = [];
 
-    function dfs(depth, letters){
-        if(depth == digits.length){
+    if( digits.length < 1) return []
+
+    function bt(index, letters){
+
+        if(index == digits.length ){
             result.push(letters.join(""))
             return;
         }
+        let charNum = digits[index]; // 현재 문자
 
-        let curNum = digits[depth];
-        for(let alpha of object[curNum]){
-            letters.push(alpha);
-            dfs(depth+1, letters);
+        for(let char of obj[charNum]){
+            letters.push(char);
+            bt(index + 1, letters);
             letters.pop()
         }
+
     }
-    dfs(0,[]);
+
+    bt(0,[])
+
     return result;
+    
 };
