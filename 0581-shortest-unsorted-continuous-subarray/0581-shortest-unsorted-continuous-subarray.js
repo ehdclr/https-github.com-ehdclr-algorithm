@@ -3,33 +3,32 @@
  * @return {number}
  */
 var findUnsortedSubarray = function(nums) {
-    
+    let leftValue = Infinity;
+    let rightValue = -Infinity;
 
-    let leftNum = Infinity;
-    let rightNum = -Infinity; 
+    //왼쪽에서 오른쪽으로 갈 때 깨지는부분중 최소를 찾기
 
     for(let i = 1; i < nums.length ;i++){
-        if(nums[i-1] > nums[i]){ //꺾이는 부분을 찾아서 해당 값에서 더 작은 값을 찾아내야함 거기서부터 시작 -> 계속 커지는 배열이라는 가정하에
-            leftNum = Math.min(leftNum,nums[i])
+        if(nums[i-1] > nums[i]){
+            leftValue = Math.min(leftValue, nums[i])
         }
     }
-
-    for(let i = nums.length - 2; i >= 0 ;i--){
+    //오른쪽에서 왼쪽으로 가는 방향의 깨지는 부분중 최대 부분
+    for(let i = nums.length -2 ; i >=0 ;i--){
         if(nums[i] > nums[i+1]){
-            rightNum = Math.max(rightNum, nums[i])
+            rightValue = Math.max(rightValue, nums[i])
         }
     }
-
     let leftIdx = 0;
-    let rightIdx = nums.length - 1;
-    //꺾인 부분보다 큰부분이 있으면, 거기서 꺾인부분의 정점
-    while(leftIdx < nums.length && nums[leftIdx] <= leftNum){
-        leftIdx++
+    //이제 여기서 딱 꺾이는 부분 찾으면됨
+    while(leftIdx < nums.length && nums[leftIdx] <= leftValue){
+        leftIdx++;
     }
-
-    while(rightIdx >= 0  && nums[rightIdx] >= rightNum){
+    let rightIdx = nums.length -1
+    while(rightIdx >= 0 && nums[rightIdx] >= rightValue){
         rightIdx--
     }
 
     return leftIdx < rightIdx ? rightIdx - leftIdx + 1 : 0
+    
 };
