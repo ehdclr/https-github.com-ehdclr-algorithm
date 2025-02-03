@@ -177,6 +177,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0093-restore-ip-addresses) |
 | [0125-valid-palindrome](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0205-isomorphic-strings) |
 | [0227-basic-calculator-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0227-basic-calculator-ii) |
@@ -267,6 +268,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0053-maximum-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0070-climbing-stairs) |
+| [0131-palindrome-partitioning](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0152-maximum-product-subarray) |
 | [0322-coin-change](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0322-coin-change) |
@@ -292,6 +294,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0093-restore-ip-addresses) |
+| [0131-palindrome-partitioning](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0131-palindrome-partitioning) |
 ## Depth-First Search
 |  |
 | ------- |
