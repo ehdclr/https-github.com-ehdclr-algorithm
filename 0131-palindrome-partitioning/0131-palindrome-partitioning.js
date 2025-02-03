@@ -3,8 +3,21 @@
  * @return {string[][]}
  */
 
-function isPalindrome(s) {
-    return s.split("").reverse().join("") == s;
+// function isPalindrome(s) {
+//     return s.split("").reverse().join("") == s;
+// }
+
+// 두가지 방법이 있다.
+function isPalindrome(s){
+    let start = 0;
+    let end = s.length - 1;
+
+    while(start < end){
+        if(s[start] !== s[end]) return false;
+            start++
+            end--
+    }
+    return true;
 }
 
 
