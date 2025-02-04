@@ -2,49 +2,41 @@
  * @param {string} s
  * @return {string[][]}
  */
+var partition = function(s) {
 
-// function isPalindrome(s) {
-//     return s.split("").reverse().join("") == s;
-// }
+    let result = []
 
-// 두가지 방법이 있다.
-function isPalindrome(s){
-    let start = 0;
-    let end = s.length - 1;
-
-    while(start < end){
-        if(s[start] !== s[end]) return false;
-            start++
+    function isPalindrome(subString){
+        let start = 0;
+        let end = subString.length - 1;
+        while(start < end){
+            if(subString[start] !== subString[end]) return false;
+            start++;
             end--
-    }
-    return true;
-}
-
-
-function bt(s, start, path, result){
-    if(start === s.length){  //앞에서 자르는 간격을 늘릴 것 
-        result.push([...path]);
-        return;
-    }
-
-    for(let end = start ; end < s.length ; end++){
-        let subString = s.substring(start, end +1); // a|ab aa|b 이런식으로 앞에서부터 자르는걸로
-        if(isPalindrome(subString)){
-            path.push(subString);
-            bt(s, end + 1, path, result);
-            path.pop()
         }
+
+        return true;
     }
 
-}
+    function bt(start, path){
+        //멈출 조건
+        if(start == s.length){ // 앞에서 잘라가는 부분이 점점 늘어나서 같아지면
+            result.push([...path])
+            return;
+        }
 
-var partition = function (s) {
-    if (s.length === 0) return [];
+        for(let i = start ; i < s.length ; i++){
+            let sub = s.substring(start, i + 1); // a|ab 에서 잘랐으니 그다음 ab에서 SUBSTRING해야하니 시작점이 달라짐
+            if(isPalindrome(sub)){
+                path.push(sub);
+                bt(i + 1, path);
+                path.pop()
+            }
+        }
 
-    let result = [];// 결과를 담을 것
+    }
 
-    bt(s, 0, [], result);
-
+    bt(0,[])
 
     return result;
 };
