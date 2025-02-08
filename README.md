@@ -214,6 +214,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Recursion
 |  |
 | ------- |
+| [0203-remove-linked-list-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0203-remove-linked-list-elements) |
 | [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 ## Queue
 |  |
@@ -299,4 +300,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0079-word-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0079-word-search) |
+## Linked List
+|  |
+| ------- |
+| [0203-remove-linked-list-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0203-remove-linked-list-elements) |
 <!---LeetCode Topics End-->
