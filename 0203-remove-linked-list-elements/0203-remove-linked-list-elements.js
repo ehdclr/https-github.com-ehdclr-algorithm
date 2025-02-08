@@ -27,11 +27,33 @@
 //     return dummy.next; // 더미 노드의 next가 새로운 head
 // };
 
-var removeElements = function(head, val){
-    if(head == null) return null;
+// var removeElements = function(head, val){
+//     if(head == null) return null;
+//     head.next = removeElements(head.next, val);
+//     //recursive한 방법
+//     return head.val === val ? head.next : head;
+// }
 
-    head.next = removeElements(head.next, val);
+var removeElements = function(head,val){
 
-    //recursive한 방법
-    return head.val === val ? head.next : head;
+    //iterative한 방법
+    let dummyHead = new ListNode(0);
+    dummyHead.next = head;
+
+    let currentNode = head;
+    let prevNode = dummyHead;
+
+    while(currentNode){
+        if(currentNode.val == val){ //삭제해야할 target이라면
+            prevNode.next = currentNode.next;
+            currentNode = currentNode.next;
+        } else {
+            //삭제 할 것이 아니라면, 그냥 넘어가기
+            currentNode = currentNode.next
+            prevNode = prevNode.next
+        }
+    }
+
+    return dummyHead.next
+
 }
