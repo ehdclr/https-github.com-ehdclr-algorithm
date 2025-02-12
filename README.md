@@ -60,6 +60,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
+| [0908-middle-of-the-linked-list](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
 |  |
 | ------- |
@@ -306,4 +307,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0021-merge-two-sorted-lists) |
 | [0203-remove-linked-list-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0203-remove-linked-list-elements) |
+| [0908-middle-of-the-linked-list](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
