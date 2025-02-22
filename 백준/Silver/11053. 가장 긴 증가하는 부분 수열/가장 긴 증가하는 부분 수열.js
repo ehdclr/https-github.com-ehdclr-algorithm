@@ -6,10 +6,12 @@ const a = input[1].split(" ").map(Number);
 
 //배열 부분이 나오면 , 투포인터나 그런식으로 풀거나 다른 방법이 있다면 dp 밖에 없음
 
-let dp = new Array(n).fill(1);
-
-// 맨처음은 가장 작은 숫자 넣기 
 // 모든 원소는 자기 자신만 가지니까
+let dp = new Array(n).fill(1); 
+
+
+// i는 현재 위치 j는 i보다 왼쪽에서 작은것들 탐지하기 j가 움직일때마다 이전 위치의 자기보다 작은 것들을 찾아내니가
+// i를 갱신해 줄 수 있다. 
 for(let i = 0 ; i < n ; i++){
   for(let j = 0 ; j < i ; j++){
       if(a[j] < a[i]) {
@@ -19,3 +21,5 @@ for(let i = 0 ; i < n ; i++){
 }
 
 console.log(Math.max(...dp))
+
+//시간 복잡도는 O(N^2) 공간복잡도는 O(N)
