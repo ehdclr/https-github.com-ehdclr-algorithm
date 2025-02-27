@@ -21,16 +21,18 @@ var removeNthFromEnd = function(head, n) {
         current = current.next;
     }
 
-    let countToGo = count - n;
+    let countToGo = 0
     let dummy = new ListNode(0);
     dummy.next = head;
     current = dummy;
     
-    for(let i = 0; i < countToGo ; i++){
-        current = current.next;
+    while(current !== null && current.next !== null){
+        if(countToGo == count - n){
+            current.next = current.next.next;
+        }
+        countToGo++
+        current = current.next
     }
-
-    current.next = current.next.next;
 
 
     return dummy.next;
