@@ -24,7 +24,7 @@ func (h AbsHeap) Less(i, j int) bool {
 	return absI < absJ
 }
 
-func (h AbsHeap) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
+func (h AbsHeap) Swap(i, j int) { h[i].val, h[j].val = h[j].val, h[i].val }
 func (h *AbsHeap) Push(x any) {
 	*h = append(*h, x.(Item))
 }
@@ -54,13 +54,13 @@ func main() {
 	s.Split(bufio.ScanLines)
 
 	T := scanInt()
-
 	h := &AbsHeap{}
 	heap.Init(h)
 
 	for T > 0 {
 		T--
 		num := scanInt()
+
 		if num == 0 {
 			if h.Len() == 0 {
 				fmt.Fprintln(w, 0)
@@ -72,11 +72,10 @@ func main() {
 		}
 
 	}
-
 }
 
 func scanInt() int {
 	s.Scan()
-	val, _ := strconv.Atoi(s.Text())
-	return val
+	v, _ := strconv.Atoi(s.Text())
+	return v
 }
