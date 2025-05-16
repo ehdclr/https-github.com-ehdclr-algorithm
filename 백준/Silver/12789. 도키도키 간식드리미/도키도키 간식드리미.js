@@ -1,31 +1,30 @@
 const fs = require("fs");
-const input = fs.readFileSync("/dev/stdin").toString().split("\n");
+const input = fs.readFileSync('/dev/stdin').toString().split("\n");
 
 let N = +input[0];
 let students = input[1].split(" ").map(Number);
-let stack = [];
 let current = 1;
+let stack = []
 
-while (students.length > 0) {
-  if (students[0] === current) {
+while (students.length != 0) {
+  if (current == students[0]) {
     students.shift();
     current++;
-  } else if (stack.length > 0 && stack[stack.length - 1] === current) {
-    stack.pop();
-    current++;
+  } else if (stack.length > 0 && stack[stack.length - 1] == current) {
+    stack.pop()
+    current++
   } else {
-    stack.push(students.shift());
+    stack.push(students.shift())
   }
 }
 
-// 남은 stack 처리
-while (stack.length > 0) {
-  if (stack[stack.length - 1] === current) {
-    stack.pop();
+while (current <= N) {
+  if (current == stack[stack.length - 1]) {
+    stack.pop()
     current++;
   } else {
     break;
   }
 }
 
-console.log(stack.length === 0 ? "Nice" : "Sad");
+console.log(stack.length >= 1 ? "Sad" : "Nice")
