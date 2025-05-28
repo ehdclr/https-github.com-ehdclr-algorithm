@@ -2,51 +2,31 @@ const fs = require("fs");
 const input = fs.readFileSync("/dev/stdin").toString().split("\n");
 
 const [n, m] = input[0].split(" ").map(Number);
+let nums = [];
 
-//중복 되는 수열을 여러번 출력하면 안됨
+for (let i = 1; i <= n; i++) nums.push(i);
+let visited = new Array(n).fill(false)
 
-let visited = new Array(n + 1).fill(false);
-let selected = [];
+let answer = ""
 
-let answer =""
-
-function dfs(depth, start) {
+function dt(depth, index, result) {
   if (depth == m) {
-
-    for(let x of selected) answer += x + " "
-    answer +="\n"
+    for (let num of result) {
+      answer += num + " "
+    }
+    answer += "\n"
     return;
-
   }
 
-  for (let i = start; i <= n; i++) {
-    if (visited[i]) continue; //이미 방문하면 빼기
-    selected.push(i);
+  for (let i = index; i < n; i++) {
+    if (visited[i]) continue;
+    result.push(nums[i]);
     visited[i] = true;
-    dfs(depth + 1, i + 1);
-    selected.pop();
-    visited[i] = false;
+    dt(depth + 1, i + 1, result);
+    result.pop();
+    visited[i] = false
   }
 }
 
-//1 2 
-//1 3
-//1 4
-
-//2 3
-//2 4
-
-//3
-
-//4
-
-//4 2 이면
-
-//depth (0,1)
-// 1 -> depth(1,2) -> 2  --> 4까지
-
-//depth 0 4 -> depth 1 
-
-dfs(0,1);
-
-console.log(answer)
+dt(0, 0, []);
+console.log(answer);
