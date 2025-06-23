@@ -1,12 +1,13 @@
 n = int(input())
 
-if 90 <= n and n <= 100:
+match n // 10 :
+  case 10 | 9 :
     print('A')
-elif 80 <= n and n <= 89:
+  case 8 :
     print('B')
-elif 70 <= n and n <= 79:
+  case 7 :
     print('C')
-elif 60 <= n and n <= 69:
+  case 6 : 
     print('D')
-else:
+  case _:
     print('F')
