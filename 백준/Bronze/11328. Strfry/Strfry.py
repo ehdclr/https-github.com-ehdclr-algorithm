@@ -1,9 +1,13 @@
 from collections import Counter
 
 N = int(input())
-for _ in range(N):
-    a, b = input().split()
-    if Counter(a) == Counter(b):
-        print("Possible")
-    else:
-        print("Impossible")
+
+for i in range(N):
+  a, b = input().split()
+  a_counter = Counter(a)
+  b_counter = Counter(b)
+
+  if a_counter != b_counter:
+    print('Impossible')
+  else:
+    print('Possible')
