@@ -1,44 +1,22 @@
 import sys
-from collections import defaultdict
-from copy import deepcopy
-
-# 넣어놓고 왼쪽 방향으로 한다 (역순) -> stack을 활용하자.
-# 그리고 6 9 5 7 4 이렇게 했으니 4부터 보자
-# 그럼 top = 4가되고 다른 스택에 저장해둠 -> stack1 =[6 9 5 7] stack2 = [4] stack1의 탑이 stack2의 top보다큼
-# 그러면 len(stack1)을 출력  -> 4를 dict 4에 맞춰서 넣기 넣기 ->
-# 2 -1 -> stack1 =[6 9 5 ]  stack2 = [7] 안크네? 그럼 5 pop 해서 stack2에 
-# 2 -2 -> stack1 = [6 9] stack2 = [7 5] ->  5 는 그러면 len(stack1) 2개 그럼 dict에 됨
-# 3 9 
 
 n = int(sys.stdin.readline())
-arr = list(map(int, sys.stdin.readline().split()))
-stack1 = deepcopy(arr)
-stack2 = []
+towers = list(map(int, sys.stdin.readline().split()))
 
-default_dict = defaultdict(int) # 기본값 (0 반환)
+result = [0] * n
+stack = []  # (인덱스, 높이) 저장
 
-while stack1:
-    stack1_top = stack1.pop() # top 부분 기억해두기
-    stack2.append(stack1_top)
-    # stack2가 들어있다면, stack2의 탑과 stack1의 탑을 비교
-    while stack2:
-        if stack1 and stack1[-1] > stack2[-1]:
-            default_dict[str(stack2[-1])] = len(stack1)
-            stack2.pop()
-        elif stack1 and stack1[-1] < stack2[-1]:
-        #여기서 stack1이 다 벗겨지면, 빼기
-            stack2.append(stack1.pop())
-        else :
-            stack2.pop()
+for i in range(n):
+    # 현재 탑보다 낮은 탑들을 스택에서 제거
+    # (이 탑들은 현재 탑에 의해 가려짐)
+    while stack and stack[-1][1] < towers[i]:
+        stack.pop()
+    
+    # 스택이 비어있지 않으면 현재 탑의 신호를 받을 수 있는 탑이 있음
+    if stack:
+        result[i] = stack[-1][0] + 1  # 1-based 인덱스
+    
+    # 현재 탑을 스택에 추가
+    stack.append((i, towers[i]))
 
-
-#어차피 defaultdict썼기때문에 없더라도 0
-
-for num in arr:
-    print(default_dict[str(num)] ,end=" ")
-
-
-
-
-
-
+print(*result)
