@@ -3,46 +3,23 @@ from collections import deque
 
 n = int(sys.stdin.readline())
 q = deque()
+result = []  # 이 줄이 빠져있었습니다!
 
-result = []
+commands = {
+    "push_front": lambda x: q.appendleft(int(x)),
+    "push_back": lambda x: q.append(int(x)),
+    "pop_front": lambda _: result.append(q.popleft() if q else -1),
+    "pop_back": lambda _: result.append(q.pop() if q else -1),
+    "size": lambda _: result.append(len(q)),
+    "empty": lambda _: result.append(0 if q else 1),
+    "front": lambda _: result.append(q[0] if q else -1),
+    "back": lambda _: result.append(q[-1] if q else -1)
+}
 
 for _ in range(n):
-  command = sys.stdin.readline().split()
-  cmd = command[0]
+    parts = sys.stdin.readline().split()
+    cmd = parts[0]
+    arg = parts[1] if len(parts) > 1 else None
+    commands[cmd](arg)
 
-  if cmd == "push_front":
-    q.appendleft(int(command[1]))
-  elif cmd == "push_back":
-    q.append(int(command[1]))
-  elif cmd == "pop_front":
-    if len(q) == 0:
-      result.append(-1)
-    else:
-      result.append(q.popleft())
-  elif cmd == "pop_back":
-    if len(q) == 0:
-      result.append(-1)
-    else:
-      result.append(q.pop())
-  elif cmd == "size":
-    result.append(len(q))
-  elif cmd == "front":
-    if len(q) == 0:
-      result.append(-1)
-    else:
-      result.append(q[0])
-  elif cmd == "back":
-    if len(q) == 0:
-      result.append(-1)
-    else:
-      result.append(q[-1])
-  elif cmd == "empty":
-    if len(q) > 0:
-      result.append(0)
-    else:
-      result.append(1)
-
-    
-
-
-print("\n".join(map(str,result)))
+print('\n'.join(map(str, result)))
