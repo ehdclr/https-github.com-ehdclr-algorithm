@@ -1,33 +1,30 @@
 const fs = require("fs");
 const input = fs.readFileSync('/dev/stdin').toString().split("\n");
 
-//괄호 문자열 
+const T = Number(input[0]);
 
-//
+let answer = ""
 
-let T = +input[0];
+for (let i = 1; i <= T; i++) {
+  let str = input[i];
+  let stack = [];
 
-
-let answer = "";
-let line = 1;
-
-while (T--) {
-  let str = input[line].split("");
-  const stack = [];
-
-  str.map((el) => {
-    if (el == "(") {
-      stack.push(el)
-    } else if (el == ")") {
-      const top = stack[stack.length - 1]
-      if (top == "(") stack.pop();
-      else stack.push(el)
+  for (let char of str) {
+    if (char === "(") {
+      stack.push(char)
+    } else if (char === ")") {
+      if (stack.length > 0 && stack[stack.length - 1] === "(") {
+        stack.pop()
+      } else {
+        stack.push(char)
+      }
     }
-  })
-
-  if (stack.length >= 1) answer += "NO" + "\n";
-  else answer += "YES" + "\n"
-  line++
+  }
+  if (stack.length > 0) {
+    answer += "NO\n"
+  } else {
+    answer += "YES\n"
+  }
 }
 
 console.log(answer)
