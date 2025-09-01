@@ -177,6 +177,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0595-big-countries](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0595-big-countries) |
 | [1153-product-sales-analysis-i](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1153-product-sales-analysis-i) |
 | [1258-article-views-i](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1258-article-views-i) |
+| [1415-students-and-examinations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1415-students-and-examinations) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1827-invalid-tweets) |
