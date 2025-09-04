@@ -1,3 +1,8 @@
-select name from employee e inner join
-(select managerId,count(managerId) from employee group by managerId having count(*)>=5) cte
-where e.id=cte.managerId
+select name
+from employee 
+where id in(
+    select managerid
+    from employee
+    group by managerid
+    having count(*) >=5
+)
