@@ -178,6 +178,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0595-big-countries](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0595-big-countries) |
 | [1153-product-sales-analysis-i](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1153-product-sales-analysis-i) |
 | [1258-article-views-i](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1258-article-views-i) |
+| [1292-immediate-food-delivery-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1292-immediate-food-delivery-ii) |
 | [1390-average-selling-price](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1415-students-and-examinations) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
