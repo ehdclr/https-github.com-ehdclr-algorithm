@@ -1,51 +1,52 @@
 const fs = require("fs");
-const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split("\n");
 
-// 테스트 케이스 수
-let t = Number(input[0]);
+const T = Number(input[0]);
 
 let line = 1;
-let answer = "";
 
-while (t--) {
-  // 명령어, 배열 크기 및 배열 입력 처리
-  let p = input[line].split(""); // 명령어 리스트
-  let n = Number(input[line + 1]); // 배열 크기
-  let arr = input[line + 2].trim(); // 배열 입력
+for (let tc = 0; tc < T; tc++) {
+  const cmds = input[line++];
+  const n = Number(input[line++]);
+  const arrStr = input[line++].trim();
 
-  // 빈 배열 처리
-  arr = arr === "[]" ? [] : arr.slice(1, -1).split(",").map(Number);
+  // 배열 파싱
+  let arr = [];
+  if (n > 0) {
+    arr = arrStr.slice(1, -1).split(",");
+  }
 
-  let isReversed = false; // 뒤집힌 상태 추적
-  let isError = false; // 에러 상태 추적
-  let start = 0, end = arr.length;
+  let isReversed = false;
+  let flags = false;
+  let left = 0;
+  let right = arr.length - 1;
 
-  for (let cmd of p) {
-    if (cmd === "R") {
-      isReversed = !isReversed; // 뒤집기 상태 전환
-    } else if (cmd === "D") {
-      if (start >= end) { // 배열이 비어 있으면 에러
-        isError = true;
+  for (let cmd of cmds) {
+    if (cmd === 'R') {
+      isReversed = !isReversed;
+    } else if (cmd === 'D') {
+      if (left > right) {
+        flags = true;
         break;
       }
-      // 앞 또는 뒤에서 제거
       if (isReversed) {
-        end--; // 뒤에서 제거
+        right--;
       } else {
-        start++; // 앞에서 제거
+        left++;
       }
     }
   }
 
-  if (isError) {
-    answer += "error\n";
+  if (flags) {
+    console.log('error');
   } else {
-    let result = arr.slice(start, end); // 필요한 부분만 추출
-    if (isReversed) result.reverse(); // 최종 결과만 뒤집기
-    answer += `[${result.join(",")}]\n`;
+    let result = [];
+    for (let i = left; i <= right; i++) {
+      result.push(arr[i]);
+    }
+    if (isReversed) {
+      result.reverse();
+    }
+    console.log("[" + result.join(",") + "]");
   }
-
-  line += 3; // 다음 테스트 케이스로 이동
 }
-
-console.log(answer);
