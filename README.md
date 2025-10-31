@@ -187,6 +187,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1827-invalid-tweets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/2087-confirmation-rate) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## String
 |  |
 | ------- |
