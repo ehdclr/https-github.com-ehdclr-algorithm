@@ -176,6 +176,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0577-employee-bonus](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0577-employee-bonus) |
 | [0584-find-customer-referee](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0595-big-countries) |
+| [0596-classes-with-at-least-5-students](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0596-classes-with-at-least-5-students) |
 | [1153-product-sales-analysis-i](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1153-product-sales-analysis-i) |
 | [1155-product-sales-analysis-iii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1155-product-sales-analysis-iii) |
 | [1182-game-play-analysis-iv](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1182-game-play-analysis-iv) |
