@@ -1,32 +1,31 @@
 from collections import deque
 
 def solution(maps):
-    n = len(maps)
-    m = len(maps[0])
-    
-    dx = [-1,1,0,0]
-    dy = [0,0,-1,1]
-    
-    visited = [[False] * m for _ in range(n)]
-    
+    # 최단거리는 queue bfs
     q = deque()
-    q.append([0,0,1])
-    visited[0][0] = True
+    visited = [[False] * len(maps[0]) for _ in range(len(maps))]
+    dx = [-1,1,0,0] # 이동
+    dy = [0,0,-1,1] # 상하 좌우 이동이 가능해야함
+    q.append([0,0,1]) # 첫칸은 한칸으로 침 
+
+    visited[0][0] = True # 이미 청므 방문했음 
+    flags = False
     
     while q:
-        cx,cy,dist = q.popleft()
-        
-        if cx == n - 1 and cy == m - 1:
+        curx, cury, dist = q.popleft()
+             
+        if curx == len(maps) -1 and cury == len(maps[0]) - 1:
+            flags = True
             return dist
-        
-        for i in range(4):
-            nx = dx[i] + cx
-            ny = dy[i] + cy
-            
-            if nx < 0 or nx >= n or ny < 0 or ny >= m or visited[nx][ny] or maps[nx][ny] == 0 :
-                continue
-            
-            visited[nx][ny] = True
-            q.append([nx,ny,dist+1])
     
-    return -1
+        # 상하좌우 움직여야함
+        for i in range(4):
+          nx = dx[i] + curx
+          ny = dy[i] + cury
+          if nx >= 0 and nx < len(maps) and ny >= 0 and ny < len(maps[0]) and not visited[nx][ny] and maps[nx][ny] == 1:
+            visited[nx][ny] = True
+            q.append([nx, ny, dist +1])
+            
+    if not flags:
+        return -1
+  
