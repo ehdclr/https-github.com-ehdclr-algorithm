@@ -1,23 +1,12 @@
-count = 0
-
+# 같은 문제를 중복처리해야하고, 이전 문제를 기억해야함 memoization 필요
+# bottom-up 방식으로 dp로 처리해야함
+dp =[] 
 def solution(n, money):
+    global dp
     dp = [0] * (n + 1)
-    dp[0] = 1 #0원을 만들어주는 방법 한가지
-    #n원을 줄 때 , 거슬러 주는 방법 
-    # dp 아니면 재귀 (memoization)은 필요 없나?
-    # 이미 전의 상황을 기억을 하고 그다음 상황을 불러오는 것 보니 nlogn 은 재귀 하는거같음 분할 정복
-    # 재귀의 결국 break point를 잡아야한다. 
+    dp[0] = 1 # 처음 0원을 만드는 경우는 한가지
+    # 그렇다면 
     for coin in money:
-        for amount in range(coin, n + 1): # coin에서 돈까지
-            dp[amount] += dp[amount - coin] # 그니까 잔여 금액에서 코인에서뺀만큼 더하고
-            dp[amount] %= 1000000007
+        for amount in range(coin, n +1): # 남은 차액 금액을 다시 구해야함
+            dp[amount] += dp[amount - coin] # 현재 코인으로 위에 상태를 더함
     return dp[n]
-    
-    # 분할 정복 
-
-# 1 2 5 원이 있다면, 4가지 방법으로 5원을 거슬러 줄 수 있다. 
-
-# Finn 이 거슬러 줄 방법의 수 
-# n < 100_000 자연수 nlon 이 가능할거같은데 
-# 화폐단위는 100종류 이하 
-# 1_000_000_007로 나눈 나머지 
