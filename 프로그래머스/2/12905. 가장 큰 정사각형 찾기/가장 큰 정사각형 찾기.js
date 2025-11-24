@@ -1,29 +1,29 @@
 function solution(board) {
-    const rows = board.length;
-    const cols = board[0].length;
-    let maxLen = 0;
+    let xLength = board[0].length;
+    let yLength = board.length;
+    let dp = Array.from({length: yLength}, () => new Array(xLength).fill(0));
+    let maxSize = 0;
     
-    // DP 테이블 생성 (board를 그대로 사용할 수도 있지만, 명확성을 위해 복사)
-    const dp = board.map(row => [...row]);
-    
-    // 첫 행과 첫 열에서 최대값 찾기
-    for (let i = 0; i < rows; i++) {
-        if (dp[i][0] === 1) maxLen = 1;
-    }
-    for (let j = 0; j < cols; j++) {
-        if (dp[0][j] === 1) maxLen = 1;
-    }
-    
-    // DP 진행
-    for (let i = 1; i < rows; i++) {
-        for (let j = 1; j < cols; j++) {
-            if (board[i][j] === 1) {
-                // 현재 위치를 오른쪽 아래 꼭짓점으로 하는 정사각형의 최대 크기
-                dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1;
-                maxLen = Math.max(maxLen, dp[i][j]);
+    for(let y = 0; y < yLength; y++) {
+        for(let x = 0; x < xLength; x++) {
+            if(board[y][x] === 1) {  // 1일 때만 계산
+                if(y === 0 || x === 0) {
+                    // 첫 행이나 첫 열은 그대로 1
+                    dp[y][x] = 1;
+                } else {
+                    // 왼쪽, 위, 대각선 중 최솟값 + 1
+                    dp[y][x] = Math.min(
+                        dp[y-1][x], 
+                        dp[y][x-1], 
+                        dp[y-1][x-1]
+                    ) + 1;
+                }
+                maxSize = Math.max(maxSize, dp[y][x]);
             }
+            // board[y][x] === 0이면 dp[y][x]는 0 유지
         }
     }
     
-    return maxLen * maxLen;
+    return maxSize * maxSize;  // 또는 Math.pow(maxSize, 2)
 }
+
