@@ -1,19 +1,16 @@
 function solution(s) {
-    if (s.length < 2) return s.length;
-    
-    let maxLen = 1;
+    let max = 1;
     
     // 각 위치를 중심으로 확장
     for (let i = 0; i < s.length; i++) {
-        // 홀수 길이 팰린드롬 (중심이 1개)
+        // 홀수 길이 팰린드롬
         let len1 = expandAroundCenter(s, i, i);
-        // 짝수 길이 팰린드롬 (중심이 2개)
+        // 짝수 길이 팰린드롬
         let len2 = expandAroundCenter(s, i, i + 1);
-        
-        maxLen = Math.max(maxLen, len1, len2);
+        max = Math.max(max, len1, len2);
     }
     
-    return maxLen;
+    return max;
 }
 
 function expandAroundCenter(s, left, right) {
@@ -21,5 +18,5 @@ function expandAroundCenter(s, left, right) {
         left--;
         right++;
     }
-    return right - left - 1; // 길이 반환
+    return right - left - 1;
 }
