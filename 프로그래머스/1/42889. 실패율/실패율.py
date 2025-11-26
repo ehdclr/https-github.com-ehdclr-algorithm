@@ -1,27 +1,24 @@
 def solution(N, stages):
-    
-    stages.sort()
-    ans = []
-    for i in range(1,N+1):
-        # 1이라면
-        fail_count = 0
-        total_count = 0
-        for stage in stages:
-            if stage == i:
-                fail_count += 1
-            if stage >= i:
-                total_count += 1
-        
-        if total_count != 0:
-          ans.append([i, fail_count / total_count])
-        else: 
-          ans.append([i,0])
-    
-    ans.sort(key= lambda x : (x[1],-x[0]), reverse=True)
-    result = []
-    
-    for x in ans:
-        result.append(x[0])
-    print(f'실패율을 포함한 [stage, 실패율] : {ans}')
-    
-    return result
+  challenger = [0] * (N+2) # 스테이지 별 도전자수 구함
+  for stage in stages:
+    challenger[stage] += 1
+
+  #스테이지 별 실패한 사용자 수 계싼
+  fails = {}
+  total = len(stages)
+
+  #각 스테이지를 순회하며, 실패율 계산
+  for i in range(1, N+1):
+    if challenger[i] == 0: #도전한 사람이 없는 경우, 실패율은 0
+      fails[i] = 0
+    else:
+      fails[i] = challenger[i] / total # 실패율 구함
+      total -= challenger[i] # 다음 스테이지 실패율을 구하기 위해 현재 스테이지의 인원을 뺌
+
+  result = sorted(fails, key = lambda x: fails[x], reverse=True)
+
+  return result
+
+
+
+# 책 풀이
