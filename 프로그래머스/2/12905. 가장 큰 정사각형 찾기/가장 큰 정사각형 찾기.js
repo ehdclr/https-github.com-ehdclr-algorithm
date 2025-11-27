@@ -1,29 +1,28 @@
 function solution(board) {
-    let xLength = board[0].length;
-    let yLength = board.length;
-    let dp = Array.from({length: yLength}, () => new Array(xLength).fill(0));
-    let maxSize = 0;
-    
-    for(let y = 0; y < yLength; y++) {
-        for(let x = 0; x < xLength; x++) {
-            if(board[y][x] === 1) {  // 1일 때만 계산
-                if(y === 0 || x === 0) {
-                    // 첫 행이나 첫 열은 그대로 1
-                    dp[y][x] = 1;
-                } else {
-                    // 왼쪽, 위, 대각선 중 최솟값 + 1
-                    dp[y][x] = Math.min(
-                        dp[y-1][x], 
-                        dp[y][x-1], 
-                        dp[y-1][x-1]
-                    ) + 1;
-                }
-                maxSize = Math.max(maxSize, dp[y][x]);
-            }
-            // board[y][x] === 0이면 dp[y][x]는 0 유지
-        }
-    }
-    
-    return maxSize * maxSize;  // 또는 Math.pow(maxSize, 2)
-}
+  const row = board.length;
+  const col = board[0].length;
 
+  // 각 칸까지 끝나는 가장 큰 정사각형 한 변의 길이 저장
+  const dp = Array.from({ length: row }, () => Array(col).fill(0));
+  let maxSize = 0;
+
+  for (let i = 0; i < row; i++) {
+    for (let j = 0; j < col; j++) {
+      if (board[i][j] === 0) {
+        dp[i][j] = 0;                 // 0이면 정사각형 불가
+      } else if (i === 0 || j === 0) {
+        dp[i][j] = 1;                 // 첫 행/열에서 1이면 길이 1 정사각형
+      } else {
+        dp[i][j] = Math.min(
+          dp[i - 1][j],               // 위
+          dp[i][j - 1],               // 왼
+          dp[i - 1][j - 1]            // 왼위
+        ) + 1;
+      }
+
+      maxSize = Math.max(maxSize, dp[i][j]);
+    }
+  }
+
+  return maxSize * maxSize;
+}
