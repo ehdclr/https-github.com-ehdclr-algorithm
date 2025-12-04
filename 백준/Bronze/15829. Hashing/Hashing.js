@@ -1,33 +1,18 @@
 const fs = require("fs");
 const input = fs.readFileSync('/dev/stdin').toString().split("\n");
-// hahing
-
-//해시함수
-
-
-// 최대한 충돌이 적게 나야함
-
-//r 은 31
-
-//num * 31 mod 1234567891
-//M 1234567891
 
 const L = Number(input[0]);
-let s = input[1];
-let alpha = [0]
-
-for (let i = 97; i <= 122; i++) {
-  alpha.push(String.fromCharCode(i))
-}
+const s = input[1];
+const MOD = 1234567891;
+const R = 31;
 
 let ans = 0;
+let power = 1;  // 31^i를 미리 계산
+
 for (let i = 0; i < s.length; i++) {
-  let idx = alpha.indexOf(s[i])
-  ans += idx * Math.pow(31, i)
+  const idx = s.charCodeAt(i) - 96;  // 'a' = 97이므로 -96하면 a=1
+  ans = (ans + idx * power) % MOD;
+  power = (power * R) % MOD;  // 다음 거듭제곱 계산
 }
-ans %= 1234567891
 
-
-
-console.log(ans)
-
+console.log(ans);
