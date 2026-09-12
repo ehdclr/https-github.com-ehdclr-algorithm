@@ -79,6 +79,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
 | [0259-3sum-smaller](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0259-3sum-smaller) |
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
+| [0389-find-the-difference](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0389-find-the-difference) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
 | [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
@@ -120,6 +121,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- |
 | [0078-subsets](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0287-find-the-duplicate-number) |
+| [0389-find-the-difference](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0389-find-the-difference) |
 ## Hash Table
 |  |
 | ------- |
@@ -138,6 +140,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0347-top-k-frequent-elements](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
+| [0389-find-the-difference](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0389-find-the-difference) |
 | [0525-contiguous-array](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0692-top-k-frequent-words) |
@@ -218,6 +221,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0242-valid-anagram](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0290-word-pattern) |
 | [0387-first-unique-character-in-a-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0387-first-unique-character-in-a-string) |
+| [0389-find-the-difference](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0389-find-the-difference) |
 | [0394-decode-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0415-add-strings) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
