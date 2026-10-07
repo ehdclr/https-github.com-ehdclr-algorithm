@@ -65,6 +65,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0680-valid-palindrome-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0680-valid-palindrome-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0908-middle-of-the-linked-list) |
+| [1768-merge-strings-alternately](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1768-merge-strings-alternately) |
 ## Sorting
 |  |
 | ------- |
@@ -230,6 +231,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1768-merge-strings-alternately](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1768-merge-strings-alternately) |
 ## String Matching
 |  |
 | ------- |
