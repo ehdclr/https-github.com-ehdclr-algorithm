@@ -1,22 +1,9 @@
 function mergeAlternately(word1: string, word2: string): string {
-    // 둘중 하나씩 번갈아가고 그다음 나머지 
-    let i = 0; 
-    let j = 0;
-
-    let answer = "";
-    while(i < word1.length && j < word2.length){
-        answer += word1[i++];
-        answer += word2[j++];
-    }
-
-    if(i < word1.length){
-        while(i <word1.length){
-            answer += word1[i++];
-        }
-    } else if(j < word2.length){
-        while(j <word2.length){
-            answer += word2[j++];
-        }
+    //하나씩 먼저 word1부터 먼저 끝나는거부터 진행 
+    let answer = ""
+    for(let i = 0 ; i < Math.max(word1.length, word2.length); i++){
+        answer += word1[i] ? word1[i] : ""
+        answer += word2[i] ? word2[i] : ""
     }
 
     return answer;
