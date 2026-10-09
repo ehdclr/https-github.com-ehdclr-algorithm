@@ -45,6 +45,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0792-binary-search](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0792-binary-search) |
 | [0976-minimum-area-rectangle](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/0976-minimum-area-rectangle) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1773-count-items-matching-a-rule](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1773-count-items-matching-a-rule) |
 ## Two Pointers
 |  |
 | ------- |
@@ -232,6 +233,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1768-merge-strings-alternately](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1768-merge-strings-alternately) |
+| [1773-count-items-matching-a-rule](https://github.com/ehdclr/https-github.com-ehdclr-algorithm/tree/master/1773-count-items-matching-a-rule) |
 ## String Matching
 |  |
 | ------- |
